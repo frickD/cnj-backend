@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class InfoController {
 	
-	private final static String APPLICATIONPROPERTIES = "message.properties";
+	private final static String APPLICATIONPROPERTIES = "static/application.properties";
 	private final static String MESSAGEPROPERTY = "message";
 	
 	@RequestMapping("/info")
